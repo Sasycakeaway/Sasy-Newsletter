@@ -1,0 +1,32 @@
+{
+  "cwd": "C:\\Users\\vivan\\Desktop\\Sasycakeaway\\SasyNewsletter",
+  "type": [
+    "cordova"
+  ],
+  "name": "Sasy's Newsletter",
+  "framework": "svelte",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#a600ff",
+    "darkTheme": true,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "pkg": "io.andrea055.sasynewsletter",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android",
+      "electron"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  }
+}
