@@ -29,5 +29,8 @@
       "android",
       "electron"
     ]
+  },
+  "dependencies": {
+    "sasy's-newsletter": "file:.."
   }
 }
