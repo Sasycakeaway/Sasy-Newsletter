@@ -31,7 +31,7 @@
       redirect: 'follow'
     };
 
-    let raw_users = await fetch("http://127.0.0.1:5004/api/newsletter", requestOptions);
+    let raw_users = await fetch("http://2.58.82.195/api/newsletter", requestOptions);
     try {
       return await raw_users.json();
     } catch (error) {
