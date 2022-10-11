@@ -22,6 +22,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm i
-      - run: npm install cordova -g
-      - run: cd cordova;cordova platform add electron;cd ..
       - run: npm run build-cordova-electron
